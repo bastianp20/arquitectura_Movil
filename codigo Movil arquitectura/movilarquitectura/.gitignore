@@ -1,0 +1,28 @@
+# Node modules
+node_modules/
+
+# Archivos generados
+*.log
+*.lock
+
+# Archivos de compilación de Ionic
+www/
+platforms/
+plugins/
+
+# Archivos de configuración locales
+.env
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Archivos temporales
+*.swp
+*.bak
+
+# Archivos grandes para Git LFS
+*.apk filter=lfs diff=lfs merge=lfs -text
+*.jpg filter=lfs diff=lfs merge=lfs -text
+*.png filter=lfs diff=lfs merge=lfs -text
+*.mp4 filter=lfs diff=lfs merge=lfs -text
